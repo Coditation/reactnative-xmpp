@@ -23,7 +23,7 @@ import {
 
 global.Buffer = global.Buffer || require('buffer').Buffer
 
- var xmpp = require('reactnative-xmpp.js');
+ var xmpp = require('reactnative-xmpp');
 
     var conf = {login: 'user2',
                 password: 'Chelsea@100',
