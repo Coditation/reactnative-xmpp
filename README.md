@@ -13,8 +13,6 @@ This module is a work in progress and is a barebones XMPP client module at the m
 # Sample Code
 
 ```
-require('./shim')
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -25,7 +23,7 @@ import {
 
 global.Buffer = global.Buffer || require('buffer').Buffer
 
- var xmpp = require('./reactnative-xmpp.js');
+ var xmpp = require('reactnative-xmpp.js');
 
     var conf = {login: 'user2',
                 password: 'Chelsea@100',
