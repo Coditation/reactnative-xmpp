@@ -9,6 +9,13 @@ This module is a work in progress and is a barebones XMPP client module at the m
 - Fork/branch to implement new template driven design
 - Achieve feature complete wrt core XMPP spec and XMPP MUC specs
 
+# Using ReactNative-XMPP
+
+- Install rn-nodeify globally (https://github.com/mvayngrib/rn-nodeify) ``` npm install -g rn-nodeify ```
+- Install reactnative-xmpp: ``` npm install https://github.com/Coditation/reactnative-xmpp ```
+- Run ``` rn-nodeify --install buffer,events,process,stream,util,inherits,fs,path --hack ```
+- If you face Sockets Undefined issue somewhere in react-native-socket, do following: Open XCode, remove libTcpSockets.a and re-add it. Run ``` rnpm link react-native-tcp ```
+
 
 # Sample Code
 
