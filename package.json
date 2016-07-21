@@ -16,7 +16,6 @@
     "react"
   ],
   "scripts": {
-    "preinstall": "npm i -g rn-nodeify"
   },
   "dependencies": {
     "assert": "^1.4.1",
