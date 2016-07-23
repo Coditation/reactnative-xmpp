@@ -31,11 +31,12 @@ import {
 global.Buffer = global.Buffer || require('buffer').Buffer
 
  var xmpp = require('reactnative-xmpp');
-
+    // Use canonicalHost as the host name on the Jabber server and when you need to connect to any host other than localhost
     var conf = {login: 'user2',
                 password: 'Chelsea@100',
                 domain: 'localhost',
-                host: 'localhost'};
+                host: 'localhost',
+                canonicalHost: 'localhost'};
     var client = new xmpp.Client(conf);
 
 
