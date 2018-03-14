@@ -2,9 +2,9 @@
   "name": "reactnative-xmpp",
   "version": "1.0.0",
   "private": true,
-  "description": "XMPP module for React Native",  
-  "author":"Coditation Systems",
-   "contributors": [
+  "description": "XMPP module for React Native",
+  "author": "Coditation Systems",
+  "contributors": [
     "Chetan Saundankar <chetan@coditation.com>"
   ],
   "keywords": [
@@ -38,7 +38,7 @@
     "react-native-http": "github:tradle/react-native-http#834492d",
     "react-native-level-fs": "^2.0.1",
     "react-native-randombytes": "^2.1.0",
-    "react-native-tcp": "^3.3.0",
+    "react-native-tcp": "https://github.com/swaroop03/react-native-tcp.git",
     "react-native-udp": "^1.2.4",
     "react-native-util": "^1.0.2",
     "readable-stream": "^1.0.33",
